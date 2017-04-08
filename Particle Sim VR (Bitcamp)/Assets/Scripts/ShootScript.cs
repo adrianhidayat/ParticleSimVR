@@ -5,7 +5,8 @@ using System.Linq;
 
 public class ShootScript : MonoBehaviour {
 
-    public GameObject projectile;
+    public GameObject projectilePrefab;
+    public float speed;
 
 	// Use this for initialization
 	void Start () {
@@ -17,9 +18,11 @@ public class ShootScript : MonoBehaviour {
 
         var joystickNames = Input.GetJoystickNames();
 
-        if (joystickNames.Contains("Oculus Remote") && Input.GetAxisRaw("Fire") == 1) {
+        if (Input.GetButtonDown("Fire") || Input.GetButtonDown("Jump")) {
             // Shoot stuff
-            Instantiate(projectile, gameObject.transform);
+            var projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity) as GameObject;
+            var projBody = projectile.GetComponent<Rigidbody>();
+            projBody.velocity = transform.forward * speed;
         }
 	}
 }

@@ -9,10 +9,6 @@ public class ProjectileScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        rigidbody = GetComponent<Rigidbody>();
-
-        var angle = rigidbody.rotation;
-        var r = speed;
 
 	}
 	
