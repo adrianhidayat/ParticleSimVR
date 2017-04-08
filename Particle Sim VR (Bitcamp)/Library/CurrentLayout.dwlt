@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1264
     height: 570
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 683, y: 342}
+  m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 45
+  controlID: 105
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 365
     height: 570
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 263
     height: 299
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -114,13 +114,13 @@ MonoBehaviour:
     y: 299
     width: 899
     height: 271
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 15}
   - {fileID: 20}
-  m_Selected: 0
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 899
     height: 570
-  m_MinSize: {x: 406, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 406, y: 342}
+  m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 46
+  controlID: 72
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,20 +397,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Graphics
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Graphics
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Richard\Documents\Git Reposotiries\ParticleSimVR\Particle
     Sim VR (Bitcamp)
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b0240000
-    m_LastClickedID: 9392
-    m_ExpandedIDs: 00000000b0240000ffffff7f
+    m_SelectedIDs: 44250000
+    m_LastClickedID: 9540
+    m_ExpandedIDs: 0000000010250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -438,7 +438,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b0240000
+    m_ExpandedIDs: 0000000010250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -463,8 +463,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 3e010000
+    m_LastClickedInstanceID: 318
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: ec250000b827000012250000ee26000064220000
     m_RenameOverlay:
@@ -606,14 +606,14 @@ MonoBehaviour:
     width: 632
     height: 278
   m_SceneLighting: 1
-  lastFramingTime: 393.03912223207624
+  lastFramingTime: 783.3644133644134
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.41244602, y: 1.1997764, z: -5.177181}
+    m_Target: {x: -2.6694193, y: 0.90000796, z: -5.2654943}
     speed: 2
-    m_Value: {x: -0.41244602, y: 1.1997764, z: -5.177181}
+    m_Value: {x: -2.6694193, y: 0.90000796, z: -5.2654943}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -636,13 +636,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.15789822, y: 0.39004734, z: -0.06808323, w: -0.9045971}
+    m_Target: {x: -0.11197929, y: 0.10176642, z: -0.011529123, w: -0.9884186}
     speed: 2
-    m_Value: {x: -0.15789822, y: 0.39004734, z: -0.06808323, w: -0.9045971}
+    m_Value: {x: -0.11197929, y: 0.10176642, z: -0.011529124, w: -0.9884186}
   m_Size:
-    m_Target: 8.793478
+    m_Target: 12.09112
     speed: 2
-    m_Value: 8.793478
+    m_Value: 12.09112
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -753,5 +753,5 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8
     y: 400
-    width: 893
+    width: 897
     height: 250
